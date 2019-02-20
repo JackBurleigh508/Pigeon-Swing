@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pigeon : MonoBehaviour
 {
 
-    public KeyCode playerOne, playerTwo;
+    public KeyCode playerOne, playerTwo, playerThree, playerFour;
 
     void Start()
     {
@@ -43,6 +43,40 @@ public class Pigeon : MonoBehaviour
                 x.constraints = RigidbodyConstraints2D.FreezeAll;
             }
             else if (Input.GetKeyUp(playerTwo))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 1;
+                x.constraints = RigidbodyConstraints2D.None;
+            }
+        }
+
+        else if (this.tag == "Player3")
+        {
+            if (Input.GetKey(playerThree))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 0;
+                x.velocity = new Vector2(0, 0);
+                x.constraints = RigidbodyConstraints2D.FreezeAll;
+            }
+            else if (Input.GetKeyUp(playerThree))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 1;
+                x.constraints = RigidbodyConstraints2D.None;
+            }
+        }
+
+        else if (this.tag == "Player4")
+        {
+            if (Input.GetKey(playerFour))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 0;
+                x.velocity = new Vector2(0, 0);
+                x.constraints = RigidbodyConstraints2D.FreezeAll;
+            }
+            else if (Input.GetKeyUp(playerFour))
             {
                 Rigidbody2D x = this.GetComponent<Rigidbody2D>();
                 x.gravityScale = 1;
