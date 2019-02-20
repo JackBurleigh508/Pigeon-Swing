@@ -11,18 +11,43 @@ public class Pigeon : MonoBehaviour
     {
         
     }
-
+    public KeyCode playerOne, playerTwo; 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.S))
+        if (this.tag == "Player1")
         {
-            this.GetComponent<Rigidbody2D>().gravityScale = 0;
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            if (Input.GetKeyDown(playerOne))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 0;
+                x.velocity = new Vector2(0, 0);
+                x.constraints = RigidbodyConstraints2D.FreezeAll;
+            }
+            else if(Input.GetKeyUp(playerOne))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 1;
+                x.constraints = RigidbodyConstraints2D.None;
+            }
         }
-        else
+
+
+        else if (this.tag == "Player2")
         {
-            this.GetComponent<Rigidbody2D>().gravityScale = 1;
+            if (Input.GetKey(playerTwo))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 0;
+                x.velocity = new Vector2(0, 0);
+                x.constraints = RigidbodyConstraints2D.FreezeAll;
+            }
+            else if (Input.GetKeyUp(playerTwo))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.gravityScale = 1;
+                x.constraints = RigidbodyConstraints2D.None;
+            }
         }
     }
 }
