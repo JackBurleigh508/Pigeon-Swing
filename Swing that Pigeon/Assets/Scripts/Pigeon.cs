@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Pigeon : MonoBehaviour
 {
-    
 
-    // Start is called before the first frame update
+    public KeyCode playerOne, playerTwo;
+
     void Start()
     {
         
-    }
-    public KeyCode playerOne, playerTwo; 
-    // Update is called once per frame
+    } 
+
+
     void Update()
     {
         if (this.tag == "Player1")
