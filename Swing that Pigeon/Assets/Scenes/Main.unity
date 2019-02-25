@@ -271,19 +271,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerOneHold: 115
-  playerOneJump: 119
+  playerOneJump: 32
   playerOneLeft: 97
   playerOneRight: 100
   playerTwoHold: 103
-  playerTwoJump: 116
+  playerTwoJump: 32
   playerTwoLeft: 102
   playerTwoRight: 104
   playerThreeHold: 107
-  playerThreeJump: 105
+  playerThreeJump: 32
   playerThreeLeft: 106
   playerThreeRight: 108
   playerFourHold: 261
-  playerFourJump: 264
+  playerFourJump: 32
   playerFourLeft: 260
   playerFourRight: 262
 --- !u!58 &863428817
@@ -548,19 +548,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerOneHold: 115
-  playerOneJump: 119
+  playerOneJump: 32
   playerOneLeft: 97
   playerOneRight: 100
   playerTwoHold: 103
-  playerTwoJump: 116
+  playerTwoJump: 32
   playerTwoLeft: 102
   playerTwoRight: 104
   playerThreeHold: 107
-  playerThreeJump: 105
+  playerThreeJump: 32
   playerThreeLeft: 106
   playerThreeRight: 108
   playerFourHold: 261
-  playerFourJump: 264
+  playerFourJump: 32
   playerFourLeft: 260
   playerFourRight: 262
 --- !u!58 &998888911
@@ -903,19 +903,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerOneHold: 115
-  playerOneJump: 119
+  playerOneJump: 32
   playerOneLeft: 97
   playerOneRight: 100
   playerTwoHold: 103
-  playerTwoJump: 116
+  playerTwoJump: 32
   playerTwoLeft: 102
   playerTwoRight: 104
   playerThreeHold: 107
-  playerThreeJump: 105
+  playerThreeJump: 32
   playerThreeLeft: 106
   playerThreeRight: 108
   playerFourHold: 261
-  playerFourJump: 264
+  playerFourJump: 32
   playerFourLeft: 260
   playerFourRight: 262
 --- !u!231 &1099469118
@@ -1305,19 +1305,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerOneHold: 115
-  playerOneJump: 119
+  playerOneJump: 32
   playerOneLeft: 97
   playerOneRight: 100
   playerTwoHold: 103
-  playerTwoJump: 116
+  playerTwoJump: 32
   playerTwoLeft: 102
   playerTwoRight: 104
   playerThreeHold: 107
-  playerThreeJump: 105
+  playerThreeJump: 32
   playerThreeLeft: 106
   playerThreeRight: 108
   playerFourHold: 261
-  playerFourJump: 123
+  playerFourJump: 32
   playerFourLeft: 59
   playerFourRight: 262
 --- !u!231 &1714791265
