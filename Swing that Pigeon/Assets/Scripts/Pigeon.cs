@@ -69,6 +69,24 @@ public class Pigeon : MonoBehaviour
                 x.gravityScale = 1;
                 x.constraints = RigidbodyConstraints2D.None;
             }
+
+            if (Input.GetKeyDown(playerTwoJump))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(0, 5);
+            }
+
+            if (Input.GetKeyDown(playerTwoLeft))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(-2, 0);
+            }
+
+            if (Input.GetKeyDown(playerTwoRight))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(2, 0);
+            }
         }
 
         else if (this.tag == "Player3")
@@ -86,6 +104,24 @@ public class Pigeon : MonoBehaviour
                 x.gravityScale = 1;
                 x.constraints = RigidbodyConstraints2D.None;
             }
+
+            if (Input.GetKeyDown(playerThreeJump))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(0, 5);
+            }
+
+            if (Input.GetKeyDown(playerThreeLeft))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(-2, 0);
+            }
+
+            if (Input.GetKeyDown(playerThreeRight))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(2, 0);
+            }
         }
 
         else if (this.tag == "Player4")
@@ -102,6 +138,24 @@ public class Pigeon : MonoBehaviour
                 Rigidbody2D x = this.GetComponent<Rigidbody2D>();
                 x.gravityScale = 1;
                 x.constraints = RigidbodyConstraints2D.None;
+            }
+
+            if (Input.GetKeyDown(playerFourJump))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(0, 5);
+            }
+
+            if (Input.GetKeyDown(playerFourLeft))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(-2, 0);
+            }
+
+            if (Input.GetKeyDown(playerFourRight))
+            {
+                Rigidbody2D x = this.GetComponent<Rigidbody2D>();
+                x.velocity += new Vector2(2, 0);
             }
         }
     }

@@ -274,14 +274,14 @@ MonoBehaviour:
   playerOneJump: 119
   playerOneLeft: 97
   playerOneRight: 100
-  playerTwoHold: 0
-  playerTwoJump: 0
-  playerTwoLeft: 0
-  playerTwoRight: 0
-  playerThreeHold: 0
-  playerThreeJump: 0
-  playerThreeLeft: 0
-  playerThreeRight: 0
+  playerTwoHold: 103
+  playerTwoJump: 116
+  playerTwoLeft: 102
+  playerTwoRight: 104
+  playerThreeHold: 107
+  playerThreeJump: 105
+  playerThreeLeft: 106
+  playerThreeRight: 108
   playerFourHold: 0
   playerFourJump: 0
   playerFourLeft: 0
@@ -462,8 +462,8 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 90
-    numCapVertices: 90
+    numCornerVertices: 0
+    numCapVertices: 0
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
@@ -551,14 +551,14 @@ MonoBehaviour:
   playerOneJump: 119
   playerOneLeft: 97
   playerOneRight: 100
-  playerTwoHold: 0
-  playerTwoJump: 0
-  playerTwoLeft: 0
-  playerTwoRight: 0
-  playerThreeHold: 0
-  playerThreeJump: 0
-  playerThreeLeft: 0
-  playerThreeRight: 0
+  playerTwoHold: 103
+  playerTwoJump: 116
+  playerTwoLeft: 102
+  playerTwoRight: 104
+  playerThreeHold: 107
+  playerThreeJump: 105
+  playerThreeLeft: 106
+  playerThreeRight: 108
   playerFourHold: 0
   playerFourJump: 0
   playerFourLeft: 0
@@ -759,8 +759,8 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 90
-    numCapVertices: 90
+    numCornerVertices: 0
+    numCapVertices: 0
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
@@ -906,14 +906,14 @@ MonoBehaviour:
   playerOneJump: 119
   playerOneLeft: 97
   playerOneRight: 100
-  playerTwoHold: 0
-  playerTwoJump: 0
-  playerTwoLeft: 0
-  playerTwoRight: 0
-  playerThreeHold: 0
-  playerThreeJump: 0
-  playerThreeLeft: 0
-  playerThreeRight: 0
+  playerTwoHold: 103
+  playerTwoJump: 116
+  playerTwoLeft: 102
+  playerTwoRight: 104
+  playerThreeHold: 107
+  playerThreeJump: 105
+  playerThreeLeft: 106
+  playerThreeRight: 108
   playerFourHold: 0
   playerFourJump: 0
   playerFourLeft: 0
@@ -1056,8 +1056,8 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 90
-    numCapVertices: 90
+    numCornerVertices: 0
+    numCapVertices: 0
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
@@ -1285,7 +1285,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714791259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.994, y: 6.1, z: 0}
   m_LocalScale: {x: 0.14380424, y: 0.14380424, z: 0.14380424}
   m_Children: []
@@ -1308,14 +1308,14 @@ MonoBehaviour:
   playerOneJump: 119
   playerOneLeft: 97
   playerOneRight: 100
-  playerTwoHold: 0
-  playerTwoJump: 0
-  playerTwoLeft: 0
-  playerTwoRight: 0
-  playerThreeHold: 0
-  playerThreeJump: 0
-  playerThreeLeft: 0
-  playerThreeRight: 0
+  playerTwoHold: 103
+  playerTwoJump: 116
+  playerTwoLeft: 102
+  playerTwoRight: 104
+  playerThreeHold: 107
+  playerThreeJump: 105
+  playerThreeLeft: 106
+  playerThreeRight: 108
   playerFourHold: 0
   playerFourJump: 0
   playerFourLeft: 0
