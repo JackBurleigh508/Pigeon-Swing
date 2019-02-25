@@ -29,7 +29,7 @@ public class Paint : MonoBehaviour
         this.GetComponent<LineRenderer>().positionCount += 1;
         this.GetComponent<LineRenderer>().SetPosition(n, objPos);
         n += 1;
-        yield return new WaitForSeconds(0.001f);
+        yield return new WaitForSeconds(0.1f);
         StartCoroutine(Painting());
     }
 }
