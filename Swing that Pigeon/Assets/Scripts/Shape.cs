@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shape : MonoBehaviour
 {
     public bool filled = false;
+    public GameObject Graffiti;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Shape : MonoBehaviour
         if (filled == false)
         {
             filled = true;
+            Graffiti.GetComponent<Graffiti>().num += 1;
         }
     }
 }

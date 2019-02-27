@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Graffiti : MonoBehaviour
 {
-    List<GameObject> shapes = new List<GameObject>();
+    public GameObject WinScreen;
+    public List<GameObject> shapes = new List<GameObject>();
+    public int num = 0;
+    public int numOfShapes;
 
     // Start is called before the first frame update
     void Start()
     {
-        foreach (GameObject shape in GameObject.FindGameObjectsWithTag("Shapes"))
+        foreach (GameObject shape in GameObject.FindGameObjectsWithTag("Shape"))
         {
             shapes.Add(shape);
         }
@@ -18,20 +21,9 @@ public class Graffiti : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        foreach (GameObject shape in shapes)
+        if(num >= numOfShapes)
         {
-            int num = 0;
-            if (shapes[num].GetComponent<Shape>().filled == true)
-            {
-                if(shapes[num + 1] != null)
-                {
-                    num += 1;
-                }
-                else
-                {
-                    //Activate Win Screen
-                }
-            }
+            WinScreen.SetActive(true);
         }
     }
 }
