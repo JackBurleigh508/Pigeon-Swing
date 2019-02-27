@@ -21,6 +21,17 @@ public class Graffiti : MonoBehaviour
         foreach (GameObject shape in shapes)
         {
             int num = 0;
+            if (shapes[num].GetComponent<Shape>().filled == true)
+            {
+                if(shapes[num + 1] != null)
+                {
+                    num += 1;
+                }
+                else
+                {
+                    //Activate Win Screen
+                }
+            }
         }
     }
 }
