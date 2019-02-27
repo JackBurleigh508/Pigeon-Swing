@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Graffiti : MonoBehaviour
 {
+    public string SceneToLoad;
     public GameObject WinScreen;
     public List<GameObject> shapes = new List<GameObject>();
     public int num = 0;
@@ -23,7 +25,7 @@ public class Graffiti : MonoBehaviour
     {
         if(num >= numOfShapes)
         {
-            WinScreen.SetActive(true);
+            SceneManager.LoadScene(SceneToLoad);
         }
     }
 }

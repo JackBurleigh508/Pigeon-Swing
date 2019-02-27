@@ -2389,6 +2389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a17210694a9a9949b3de96a4d022bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Level 2
   WinScreen: {fileID: 108946150}
   shapes: []
   num: 0
